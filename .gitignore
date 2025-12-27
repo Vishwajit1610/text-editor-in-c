@@ -1,0 +1,12 @@
+# --- Build artifacts ---
+kilo
+*.o
+
+# --- Obsidian metadata ---
+notes/.obsidian/
+
+# --- Editor / OS junk ---
+*.swp
+*.swo
+*~
+.DS_Store

@@ -7,7 +7,7 @@ In this Step, we essentially understand the difference between the two modes ->
 #### 1. Canonical (Cooked) Mode
 
 - This is the **default input processing method for terminals** in Unix-Like systems, including Linux. 
-- In this the **input entered is handled on a line-by-line basis.** Meaning the input is sent to the running program only after the user enters a delimeter which is usually new-line (Enter key), end-of-line (Ctrl+D).
+- In this mode, the **input entered is handled on a line-by-line basis.** Meaning the input is sent to the running program only after the user enters a delimiter which is usually new-line (Enter key), end-of-line (Ctrl+D).
 - This let's the user edit using backspace fixing the errors and finally send it to the program by pressing Enter.
 
 #### 2. Non-Canonical (RAW) Mode
@@ -21,18 +21,13 @@ In this Step, we essentially understand the difference between the two modes ->
 ---
 
 Now, since the default mode is Canonical, **we want our text-editor to be in RAW mode.**
+Canonical Mode is good for shells but not for text-editors.
+
 And the guide says, ***"This can be done by turning off a great many flags in the terminal which we will do gradually over the course of this chapter."***
 
 **RAW mode is not a single switch. It’s a bundle of flags.** And the flags we will turn off along the way.
 
 ---
-### Turn off Echoing
 
-First thing we do is turn off the `Echo` feature, what it does is -> **when a key is pressed, it prints it to the terminal.** 
-
-This feature is good in Canonical Mode, but we would want to get rid of it while switching to RAW mode. 
-
-When you DO turn this off, it doesn't print what you type and it acts similar to what appears when you are trying to enter password in sudo mode inside Linux.
-
-
+Next we will dive into turning off one of the first flags: [Turn off Echo](../02-entering-raw-mode/02-turn-off-echo.md)
 

@@ -78,6 +78,19 @@ NOW, by creating the 'Makefile' then inserting the contents of HOW we want our f
 - If `kilo.c` was last modified after `kilo` was, then `make` recompiles `kilo.c`.
 
 ---
+#### Code Snippet: 
 
-Welp good luck for the next one -> [[02_Entering RAW Mode]]
+```C
+#include <unistd.h>
+
+int main() {
+	char c;
+	while (read(STDIN_FILENO, &c, 1) == 1 && c != 'q');
+	return 0;
+}
+```
+
+---
+Next:
+[Canonical vs Non-Canonical Mode](../02-entering-raw-mode/01-canonical-vs-non-canonical-mode.md)
 

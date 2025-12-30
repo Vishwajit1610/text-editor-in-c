@@ -85,5 +85,5 @@ In the next few steps, we will turn off the `Ctrl + z`, `Ctrl + q`, `Ctrl + c`, 
 
 ---
 
-Next Step: [Disable Ctrl + S and Ctrl + Q](../02-entering-raw-mode/06-disable-ctrl-s-and-ctrl-q.md)
+Next Step: [Disable Ctrl + S and Ctrl + Q](../02-entering-raw-mode/06-disable-ctrl-c-and-ctrl-z.md)
 

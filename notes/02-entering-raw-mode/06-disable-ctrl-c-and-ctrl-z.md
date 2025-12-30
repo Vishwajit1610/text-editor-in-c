@@ -39,4 +39,4 @@ Now `Ctrl + Z` is read as 26 byte and `Ctrl + C` is read as 3 byte.
 
 ---
 Next we disable the `Ctrl + S` and `Ctrl + Q` behavior:
-[Disable Ctrl + S and Ctrl + Q](../02-entering-raw-mode/07-disable-ctrl-s-and-ctrl-q)
+[Disable Ctrl + S and Ctrl + Q](../02-entering-raw-mode/07-disable-ctrl-s-and-ctrl-q.md)

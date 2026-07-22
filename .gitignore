@@ -2,8 +2,8 @@
 kilo
 *.o
 
-# --- Obsidian metadata ---
-notes/.obsidian/
+# --- Obsidian notes---
+notes/
 
 # --- Editor / OS junk ---
 *.swp
